@@ -290,7 +290,28 @@ composer require livewire/livewire
     </html>
 
     ```
-    ````
+
+setelah diubah langkah selanjunya adalkah menambahkan component `contact index`/ ` <livewire:contact-index></livewire:contact-index>` kedalam `resources/home..blade.php` menjadi seperti ini
+```html
+@extends('layouts.app')
+
+@section('content')
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">{{ __('Dashboard') }}</div>
+
+                <div class="card-body">
+                    <livewire:contact-index></livewire:contact-index>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
+
+```
 
 ---
 
