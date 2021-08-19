@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 # Laravel Livewire
 
 diprogram ini dibuat menggunakan laravel dan livewire dengan beberapa fitur
